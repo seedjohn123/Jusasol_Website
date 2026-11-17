@@ -1,0 +1,296 @@
+---
+import Section from "@components/ui/layout/Section.astro";
+import Container from "@components/ui/layout/Container.astro";
+import Heading from "@components/ui/atoms/Heading.astro";
+import Text from "@components/ui/atoms/Text.astro";
+import ContactDetails from "@components/ui/molecules/ContactDetails.astro";
+import ContactForm from "@components/ui/molecules/ContactForm.astro";
+import GoogleMapFrame from "@components/ui/molecules/GoogleMapFrame.astro";
+
+// Why: All contact variants use the same molecules, and the block is solely responsible for layout
+// composition and data normalization.
+type ContactVariant = "split" | "map" | "simple" | "default";
+
+type ContactField = {
+  name: string;
+  label: string;
+  type?: "text" | "email" | "tel" | "number" | "url" | "password" | "date" | "textarea" | "select" | "checkbox";
+  required?: boolean;
+  placeholder?: string;
+  rows?: number;
+  autoComplete?: string;
+  options?: { value: string; label: string }[];
+};
+
+export interface Props {
+  variant?: ContactVariant;
+  sectionId?: string;
+  title?: string;
+  description?: string;
+  email?: string;
+  phone?: string;
+  address?: string;
+  mapUrl?: string;
+  formFields?: ContactField[];
+  submitLabel?: string;
+  submittingLabel?: string;
+  resetLabel?: string;
+  successMessage?: string;
+  errorMessage?: string;
+  company?: {
+    email?: string;
+    phone?: string;
+    address?: string;
+    zipCode?: string;
+    city?: string;
+  };
+  /* * Section header tag: 'h2' by default, 'h1' when the block is the first section of the page without hero (SEO). */
+  headingTag?: string;
+}
+
+const {
+  variant = "split",
+  sectionId = "kontakt",
+  title = "",
+  description = "",
+  email: emailProp = "",
+  phone: phoneProp = "",
+  address: addressProp = "",
+  mapUrl = "",
+  formFields = [],
+  submitLabel = "",
+  submittingLabel = "",
+  resetLabel = "",
+  successMessage = "",
+  errorMessage = "",
+  headingTag = "h2",
+  company,
+  locale = "pl",
+} = Astro.props as Props & { locale?: "pl" | "en" };
+const detailLabels = locale === "en"
+  ? { phone: "Phone", email: "Email", address: "Address" }
+  : { phone: "Telefon", email: "E-mail", address: "Adres" };
+
+// Why: fallbacks allow you to use a block with both contact.json and company data.
+const email = emailProp || company?.email || "";
+const phone = phoneProp || company?.phone || "";
+// Why: company.json stores the street alone. The contact card needs the full location.
+const street = (addressProp || company?.address || "").trim();
+const city = (company?.city || "").trim();
+const zipCode = (company?.zipCode || "").trim();
+const stateAndZip = ["NC", zipCode].filter(Boolean).join(" ");
+const locality = [city, stateAndZip].filter(Boolean).join(", ");
+const address = street.toLowerCase().includes(city.toLowerCase()) && city
+  ? street
+  : [street, locality, "USA"].filter((part) => part.trim().length > 0).join(", ");
+const hasMap = typeof mapUrl === "string" && mapUrl.trim().length > 0;
+const isSimple = variant === "simple";
+const isDefault = variant === "default";
+const isMap = variant === "map";
+const fields = Array.isArray(formFields) ? formFields : [];
+const formId = `contact-form-${sectionId}-${variant}`;
+const fieldIdPrefix = `${sectionId}-${variant}`;
+const phoneHref = phone ? `tel:${phone.replace(/\s+/g, "")}` : undefined;
+const contactItems = [
+  { key: "phone", label: detailLabels.phone, icon: "phone", href: phoneHref, value: phone },
+  { key: "email", label: detailLabels.email, icon: "envelope", href: email ? `mailto:${email}` : undefined, value: email },
+  { key: "address", label: detailLabels.address, icon: "map-pin", href: undefined, value: address },
+].filter(
+  // Why: Empty data should not create blank tabs or placeholder links.
+  (item): item is { key: "phone" | "email" | "address"; label: string; icon: string; href: string | undefined; value: string } =>
+    item.value.trim().length > 0,
+);
+const isEn = locale === "en";
+const leaderCopy = isEn
+  ? {
+      description: "This note goes to the JUSASOL leadership team. It is separate from a project inquiry.",
+      submitLabel: "Send to leadership",
+      successMessage: "Thank you. Your message has been sent to the JUSASOL leadership team. A member of the team will reply.",
+      switchLabel: "Have a specific project? Use the project form.",
+    }
+  : {
+      description: "Ta wiadomość trafia do zespołu kierowniczego JUSASOL. To nie jest zapytanie o konkretny projekt.",
+      submitLabel: "Wyślij do kierownictwa",
+      successMessage: "Dziękujemy. Wiadomość została wysłana do zespołu kierowniczego JUSASOL. Ktoś z zespołu odpowie.",
+      switchLabel: "Masz konkretny projekt? Użyj formularza projektowego.",
+    };
+const tabLabels = isEn
+  ? { project: "Project Inquiry", leader: "Leader member" }
+  : { project: "Zapytanie o projekt", leader: "Osoba z kierownictwa" };
+const leaderFields: ContactField[] = [
+  { name: "fullname", label: isEn ? "Full name" : "Imię i nazwisko", type: "text", required: true, placeholder: isEn ? "Your name" : "Twoje imię", autoComplete: "name" },
+  { name: "email", label: isEn ? "Email" : "E-mail", type: "email", required: true, placeholder: isEn ? "you@company.com" : "ty@firma.pl", autoComplete: "email" },
+  {
+    name: "leader",
+    label: isEn ? "Who should receive this" : "Do kogo wiadomość",
+    type: "select",
+    required: true,
+    options: [
+      { value: "lisa-allen", label: isEn ? "Lisa Allen, Chief Executive Officer" : "Lisa Allen, dyrektor generalna" },
+      { value: "daniel-reeves", label: isEn ? "Daniel Reeves, Chief Operating Officer" : "Daniel Reeves, dyrektor operacyjny" },
+      { value: "kevin-koskela", label: isEn ? "Kevin Koskela, Chief Technology Officer" : "Kevin Koskela, dyrektor techniczny" },
+      { value: "rachel-moore", label: isEn ? "Rachel Moore, Project Manager" : "Rachel Moore, kierowniczka projektu" },
+      { value: "brian-heath", label: isEn ? "Brian Heath, Technical Leader" : "Brian Heath, lider techniczny" },
+    ],
+  },
+  { name: "message", label: isEn ? "Message" : "Wiadomość", type: "textarea", required: true, rows: 5, placeholder: isEn ? "Introduce yourself or ask the leadership team a question." : "Przedstaw się albo zadaj pytanie zespołowi kierowniczemu.", autoComplete: "off" },
+];
+---
+
+<Section id={sectionId} tone="page">
+  <span id="contact-project" class="block scroll-mt-[calc(var(--site-header-height,5.75rem)+1rem)]"></span>
+  <Container>
+    {
+      isDefault ? (
+        <div class="space-y-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <Heading tag={headingTag} variant="section-title" class="text-brand-dark">
+              {title}
+            </Heading>
+            <Text variant="lead" class="text-brand-dark/70" data-contact-copy="project" hidden>
+              {description}
+            </Text>
+            <Text variant="lead" class="text-brand-dark/70" data-contact-copy="leader">
+              {leaderCopy.description}
+            </Text>
+          </div>
+
+          <div class="flex justify-center" role="tablist" aria-label={title || "Contact Us"}>
+            <div class="inline-flex rounded-full border border-brand-dark/10 bg-brand-light p-1">
+              <a href="#contact-project" role="tab" data-contact-tab="project" aria-selected="false" class="contact-tab">{tabLabels.project}</a>
+              <a href="#contact" role="tab" data-contact-tab="leader" aria-selected="true" class="contact-tab is-active">{tabLabels.leader}</a>
+            </div>
+          </div>
+
+          <!-- Why: Why: The form and the contact panel are the two main input units. -->
+          <div class="grid gap-8 lg:grid-cols-2">
+            <div class="space-y-6">
+              <div data-contact-panel="project" class="space-y-4" hidden>
+                <ContactForm
+                  formId={formId}
+                  fieldIdPrefix={fieldIdPrefix}
+                  fields={fields}
+                  submitLabel={submitLabel}
+                  submittingLabel={submittingLabel}
+                  resetLabel={resetLabel}
+                  successMessage={successMessage}
+                  errorMessage={errorMessage}
+                  showHeader={false}
+                  includeRodoConsent={false}
+                />
+              </div>
+              <div data-contact-panel="leader" class="space-y-4">
+                <ContactForm
+                  formId={`${formId}-leader`}
+                  fieldIdPrefix={`${fieldIdPrefix}-leader`}
+                  fields={leaderFields}
+                  submitLabel={leaderCopy.submitLabel}
+                  submittingLabel={submittingLabel}
+                  resetLabel={resetLabel}
+                  successMessage={leaderCopy.successMessage}
+                  errorMessage={errorMessage}
+                  showHeader={false}
+                  includeRodoConsent={false}
+                />
+              </div>
+            </div>
+
+            <div class="space-y-6">
+              {
+                hasMap && (
+                  <GoogleMapFrame
+                    embedUrl={mapUrl}
+                    iframeTitle={title || sectionId}
+                    class="min-h-[20rem]"
+                    wrapperClass="shadow-sm"
+                  />
+                )
+              }
+              <ContactDetails items={contactItems} variant="detailed" />
+            </div>
+          </div>
+        </div>
+      ) : isSimple ? (
+        <div class="mx-auto max-w-2xl">
+          <!-- Why: Why: simple contact has two rhythms, first the context, then the whole form. -->
+          <div class="space-y-4 text-center">
+            <Heading tag={headingTag} variant="section-title" class="text-brand-dark">
+              {title}
+            </Heading>
+            <Text variant="lead" class="text-brand-dark/70">
+              {description}
+            </Text>
+          </div>
+
+          <ContactForm
+            formId={formId}
+            fieldIdPrefix={fieldIdPrefix}
+            fields={fields}
+            submitLabel={submitLabel}
+            submittingLabel={submittingLabel}
+            resetLabel={resetLabel}
+            successMessage={successMessage}
+            errorMessage={errorMessage}
+            showHeader={false}
+            includeRodoConsent={false}
+            class="mt-10"
+          />
+        </div>
+      ) : (
+        <div class="grid items-start gap-12 md:grid-cols-2">
+          <!-- Why: Why: split and map use the same composition, so only the right column differs. -->
+          <div class="space-y-6">
+            <div class="space-y-4">
+              <Heading tag={headingTag} variant="section-title" class="text-brand-dark">
+                {title}
+              </Heading>
+              <Text variant="lead" class="text-brand-dark/70">
+                {description}
+              </Text>
+            </div>
+
+            <ContactForm
+              formId={formId}
+              fieldIdPrefix={fieldIdPrefix}
+              fields={fields}
+              submitLabel={submitLabel}
+              submittingLabel={submittingLabel}
+              resetLabel={resetLabel}
+              successMessage={successMessage}
+              errorMessage={errorMessage}
+              showHeader={false}
+              includeRodoConsent={false}
+            />
+          </div>
+
+          {
+            isMap && hasMap ? (
+              <GoogleMapFrame
+                embedUrl={mapUrl}
+                iframeTitle={title || sectionId}
+                class="min-h-[20rem]"
+                wrapperClass="shadow-sm"
+              />
+            ) : (
+              <ContactDetails items={contactItems} variant="compact" />
+            )
+          }
+        </div>
+      )
+    }
+  </Container>
+</Section>
+
+<style>
+  .contact-tab {
+    border-radius: 999px;
+    padding: 0.55rem 1.1rem;
+    font-size: 0.875rem;
+    font-weight: 650;
+    color: color-mix(in oklab, var(--color-brand-dark) 70%, transparent);
+  }
+  .contact-tab.is-active {
+    background: var(--color-brand-dark);
+    color: var(--color-brand-light, #fff);
+  }
+</style>

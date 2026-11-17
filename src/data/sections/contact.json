@@ -1,0 +1,59 @@
+{
+  "title": "Contact Us",
+  "description": "Every successful digital solution starts with a conversation. Whether you are planning an AI-powered application, exploring CRM development, or creating a custom website, tell us about the challenge, the objective, and the vision.",
+  "mapUrl": "",
+  "email": "",
+  "address": "",
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "youtube": "#",
+    "twitter": "#",
+    "labels": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "twitter": "Twitter"
+    }
+  },
+  "formFields": [
+    { "name": "fullname", "label": "Full name", "type": "text", "required": true, "placeholder": "Your name", "autoComplete": "name" },
+    { "name": "email", "label": "Email", "type": "email", "required": true, "placeholder": "you@company.com", "autoComplete": "email" },
+    { "name": "company", "label": "Company name", "type": "text", "required": true, "placeholder": "Company name", "autoComplete": "organization" },
+    { "name": "phone", "label": "Phone number", "type": "tel", "required": false, "placeholder": "+1 351 465 2802", "autoComplete": "tel" },
+    { "name": "service", "label": "Service interested in", "type": "select", "required": true, "options": [
+      { "value": "ai", "label": "Artificial intelligence development" },
+      { "value": "crm", "label": "CRM development and customization" },
+      { "value": "web", "label": "Custom website development" },
+      { "value": "other", "label": "Other / not sure yet" }
+    ]},
+    { "name": "budget", "label": "Project budget (optional)", "type": "text", "required": false, "placeholder": "Optional", "autoComplete": "off" },
+    { "name": "message", "label": "Project details", "type": "textarea", "required": true, "rows": 5, "placeholder": "Tell us a little about your project, business goals, or challenges. We'd love to learn what you're looking to build.", "autoComplete": "off" }
+  ],
+  "rows": {
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Adres",
+      "location": "Lokalizacja"
+    }
+  },
+  "socialLabel": "Obserwuj nas",
+  "joinTeam": {
+    "paragraphs": [
+      "Wierzymy, że razem osiągniemy zamierzony efekt. Dziękujemy za zaufanie, jakim nas Państwo obdarzyli.",
+      "Po wypełnieniu formularza otrzymają Państwo odpowiedź e-mail z dalszymi krokami współpracy."
+    ]
+  },
+  "map": {
+    "openLabel": "Otwórz w Google Maps",
+    "externalLabel": "Otwórz większą mapę w Google Maps",
+    "consentMessage": "Mapa zostanie załadowana po zgodzie na usługę zewnętrzną.",
+    "cookieSettingsLabel": "Ustawienia cookies"
+  },
+  "submitLabel": "Send your inquiry",
+  "submittingLabel": "Sending...",
+  "resetLabel": "Send another",
+  "successMessage": "Thank you for contacting JUSASOL! Your message has been submitted successfully. Our team will review your inquiry and get in touch with you.",
+  "errorMessage": "The message could not be sent. Try again later."
+}

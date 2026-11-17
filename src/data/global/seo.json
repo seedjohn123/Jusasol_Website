@@ -1,0 +1,13 @@
+{
+  "defaultTitle": "JUSASOL | Professional Services",
+  "defaultDescription": "JUSASOL specializes in artificial intelligence development, CRM solutions, and custom website development.",
+  "defaultOgImage": "/og-image.png",
+  "index": false,
+  "follow": true,
+  "analytics": {
+    "googleAnalyticsId": "",
+    "googleTagManagerId": "",
+    "facebookPixelId": "",
+    "clarityId": ""
+  }
+}

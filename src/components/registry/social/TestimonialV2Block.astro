@@ -1,0 +1,43 @@
+---
+import Section from "@components/ui/layout/Section.astro";
+import SectionHeader from "@components/ui/molecules/SectionHeader.astro";
+import data from "@data/sections/testimonial-v2.json";
+import { ACTIVE_TEMPLATE } from "@config/template";
+
+interface Item { quote: string; author: string; initials: string; role: string; avatar?: string }
+export interface Props { sectionId?: string; title?: string; description?: string; tagline?: string; avatarAltPrefix?: string; items?: Item[]; headingTag?: string; class?: string }
+
+const { sectionId = "testimonial-v2", title, description, tagline, avatarAltPrefix, items, headingTag = "h2", class: className = "" } = Astro.props as Props;
+const fallback = ACTIVE_TEMPLATE === "nova" ? undefined : data;
+const list = items && items.length > 0 ? items : fallback?.items ?? [];
+const resolvedAvatarAltPrefix = avatarAltPrefix ?? fallback?.avatarAltPrefix ?? "";
+const resolvedTitle = title || fallback?.title || "";
+const resolvedDescription = description || fallback?.description || "";
+---
+
+<Section id={sectionId === "testimonial-v2" ? "opinie" : sectionId} tone="page" class:list={[className]}>
+  <div class="ui-container">
+    <div data-motion-sequence="viewport" data-motion-profile="soft">
+      <SectionHeader title={resolvedTitle} description={resolvedDescription} titleTag={headingTag} align="center" class="mx-auto max-w-3xl" />
+      {list.length > 0 && (
+        <div class="mx-auto mt-12 grid max-w-6xl gap-5 md:grid-cols-3">
+          {list.map((item) => (
+            <article class="ui-bg-surface ui-radius-lg border border-brand-dark/10 p-6 shadow-sm md:p-8">
+              <p class="text-brand-dark/75 leading-relaxed">{item.quote}</p>
+              <footer class="mt-6 flex items-center gap-3">
+                <span class="relative flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-brand-primary/15 text-xs font-semibold text-brand-primary">
+                  {item.initials}
+                  {item.avatar && <img src={item.avatar} alt={`${resolvedAvatarAltPrefix} ${item.author}`} width="40" height="40" class="absolute inset-0 size-full rounded-full object-cover" loading="lazy" onerror="this.remove()" />}
+                </span>
+                <div>
+                  <cite class="block not-italic font-semibold text-brand-dark">{item.author}</cite>
+                  <span class="text-sm text-brand-dark/55">{item.role}</span>
+                </div>
+              </footer>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</Section>

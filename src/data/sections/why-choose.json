@@ -1,0 +1,26 @@
+{
+  "title": "Technology that works for your business",
+  "subtitle": "We approach every project with a clear understanding of its business objectives, then build something that can keep supporting the company as those needs change.",
+  "items": [
+    {
+      "icon": "target",
+      "title": "Business-focused solutions",
+      "description": "We start from the business objective, so the technology supports a meaningful outcome."
+    },
+    {
+      "icon": "sliders",
+      "title": "Customized development",
+      "description": "Technology should adapt to your business. Solutions are designed around your requirements."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Innovation-driven thinking",
+      "description": "We use modern tools and practical innovation to build efficient, adaptable digital experiences."
+    },
+    {
+      "icon": "clock",
+      "title": "Long-term value",
+      "description": "We build maintainable solutions that continue to support the business after the first release."
+    }
+  ]
+}

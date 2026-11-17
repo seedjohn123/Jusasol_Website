@@ -1,0 +1,21 @@
+{
+  "seo": {
+    "title": "JUSASOL | Professional Services",
+    "description": "JUSASOL specializes in artificial intelligence development, CRM solutions, and custom website development."
+  },
+  "heading": "Innovating today. Empowering tomorrow.",
+  "sections": [
+    { "id": "navbar", "variant": "floating" },
+    { "id": "hero", "variant": "nova" },
+    { "id": "aboutSplit", "variant": "default", "sectionId": "about" },
+    { "id": "companyValues", "variant": "default", "sectionId": "values" },
+    { "id": "leadership", "variant": "default", "sectionId": "leadership" },
+    { "id": "features", "variant": "default", "sectionId": "services" },
+    { "id": "processIconSteps", "variant": "default", "sectionId": "approach" },
+    { "id": "servicesCards", "variant": "default", "sectionId": "industries" },
+    { "id": "servicesZigzag", "variant": "default", "sectionId": "projects" },
+    { "id": "testimonials", "variant": "v2", "sectionId": "testimonials" },
+    { "id": "contact", "variant": "default", "sectionId": "contact" },
+    { "id": "footer", "variant": "nova" }
+  ]
+}

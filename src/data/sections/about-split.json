@@ -1,0 +1,35 @@
+{
+  "image": "/assets/images/company/company-building.jpg",
+  "imageShape": "rounded",
+  "imageAlt": "JUSASOL office building and technology workspace",
+  "imageFallback": "JUSASOL office building",
+  "images": [
+    "/assets/images/company/company-building.jpg"
+  ],
+  "pl": {
+    "title": "Innowacja dzisiaj. Możliwości jutro.",
+    "description": "W JUSASOL wierzymy, że technologia powinna upraszczać złożoność, wspierać innowację i tworzyć realne możliwości dla firm.\n\nJesteśmy firmą tworzącą oprogramowanie. Specjalizujemy się w sztucznej inteligencji, systemach CRM i stronach na zamówienie. Pomagamy firmom rozwijać możliwości cyfrowe przez technologię, która jest inteligentna, elastyczna i zgodna z ich celami.\n\nKażda organizacja działa inaczej. Dlatego stawiamy na rozwój dopasowany do konkretnych wyzwań, a nie na jeden schemat dla wszystkich.\n\nŁączymy myślenie strategiczne, nowoczesne technologie i projektowanie od strony użytkownika, żeby poprawiać efektywność, wzmacniać relacje z klientami i wspierać długofalowy sukces.\n\nNasza misja to sprawić, by inteligentna technologia była dostępna, praktyczna i skuteczna. Wizja to świat, w którym firmy każdej wielkości mogą używać inteligentnych technologii, żeby działać sprawniej i otwierać nowe możliwości.\n\nDobra technologia zaczyna się od jasnej wizji i właściwej współpracy. Jesteśmy gotowi poznać pomysły i zamienić je w rozwiązania zaprojektowane dla Twojej firmy.",
+    "quote": "Inteligentna technologia ma być dostępna, praktyczna i skuteczna.",
+    "signature": "JUSASOL",
+    "role": "Nasza misja",
+    "imageAlts": [
+      "Dyrektor operacyjny w JUSASOL",
+      "Kevin Koskela, dyrektor techniczny",
+      "Kierowniczka projektu w JUSASOL",
+      "Brian Heath, lider techniczny"
+    ]
+  },
+  "en": {
+    "title": "Innovating today. Empowering tomorrow.",
+    "description": "At JUSASOL, we believe technology should simplify complexity, inspire innovation, and create meaningful opportunities for businesses.\n\nWe are a software development company specializing in artificial intelligence development, customer relationship management solutions, and custom website development. Our focus is on helping businesses transform their digital capabilities through technology that is intelligent, adaptable, and aligned with their goals.\n\nEvery organization operates differently. That is why we emphasize tailored development that addresses specific challenges rather than one-size-fits-all solutions.\n\nBy combining strategic thinking, modern technologies, and user-centered development, we aim to improve operational efficiency, strengthen customer relationships, and support long-term success.\n\nOur mission is to make intelligent technology accessible, practical, and impactful. Our vision is a digitally connected world where businesses of all sizes can use intelligent technology to innovate, operate efficiently, and open new opportunities.\n\nGreat technology begins with a clear vision and the right collaboration. We are ready to explore your ideas and turn them into digital solutions designed for your business.",
+    "quote": "Making intelligent technology accessible, practical, and impactful.",
+    "signature": "JUSASOL",
+    "role": "Our mission",
+    "imageAlts": [
+      "Chief Operating Officer at JUSASOL",
+      "Kevin Koskela, Chief Technology Officer",
+      "Project Manager at JUSASOL",
+      "Brian Heath, Technical Leader"
+    ]
+  }
+}

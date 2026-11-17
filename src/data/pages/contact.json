@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "Contact us | JUSASOL",
+    "description": "Talk with JUSASOL about an AI application, a CRM, or a custom website."
+  },
+  "heading": "Contact JUSASOL",
+  "sections": [
+    {
+      "id": "navbar",
+      "variant": "floating"
+    },
+    {
+      "id": "contact",
+      "variant": "default"
+    },
+    {
+      "id": "footer",
+      "variant": "nova"
+    }
+  ],
+  "enabled": false
+}

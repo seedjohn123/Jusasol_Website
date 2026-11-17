@@ -1,0 +1,878 @@
+{
+  "pl": {
+    "page": {
+      "title": "JUSASOL | AI, CRM i strony na zamówienie",
+      "description": "JUSASOL specjalizuje się w sztucznej inteligencji, systemach CRM i stronach internetowych na zamówienie.",
+      "heading": "Innowacja dzisiaj. Możliwości jutro."
+    },
+    "routes": {
+      "about": {
+        "title": "O nas | JUSASOL",
+        "description": "JUSASOL to firma software'owa skupiona na sztucznej inteligencji, CRM i stronach na zamówienie.",
+        "heading": "O JUSASOL"
+      },
+      "portfolio": {
+        "title": "Portfolio | JUSASOL",
+        "description": "Koncepcje ilustracyjne z zakresu AI, CRM i stron. To nie są potwierdzone zakończone projekty.",
+        "heading": "Nasze portfolio"
+      },
+      "technologies": {
+        "title": "Technologie | JUSASOL",
+        "description": "Przykładowe narzędzia, które JUSASOL rozważa przy AI, frontendzie, backendzie, danych, CRM i chmurze.",
+        "heading": "Nasze technologie"
+      },
+      "industries": {
+        "title": "Branże | JUSASOL",
+        "description": "Jak JUSASOL podchodzi do ochrony zdrowia, finansów, handlu, edukacji, nieruchomości i logistyki.",
+        "heading": "Branże, które obsługujemy"
+      },
+      "careers": {
+        "title": "Kariera | JUSASOL",
+        "description": "JUSASOL zaprasza do kontaktu osoby zainteresowane AI, systemami CRM i aplikacjami webowymi.",
+        "heading": "Kariera w JUSASOL"
+      },
+      "contact": {
+        "title": "Kontakt | JUSASOL",
+        "description": "Porozmawiaj z JUSASOL o aplikacji AI, systemie CRM albo stronie na zamówienie.",
+        "heading": "Kontakt z JUSASOL"
+      },
+      "services": {
+        "title": "Usługi | JUSASOL",
+        "description": "Rozwój AI, CRM i strony na zamówienie w JUSASOL.",
+        "heading": "Usługi"
+      },
+      "project": {
+        "title": "Projekty | JUSASOL",
+        "description": "Koncepcje ilustracyjne z zakresu AI, CRM i stron. To nie są potwierdzone realizacje klientów.",
+        "heading": "Projekty"
+      },
+      "testimonials": {
+        "title": "Opinie | JUSASOL",
+        "description": "Opinie klientów pojawią się po zatwierdzeniu przez JUSASOL. Przykładowych cytatów nie pokazujemy jako prawdziwych recenzji.",
+        "heading": "Opinie"
+      }
+    },
+    "demoBanner": {
+      "label": "Ten template został zaprojektowany i wdrożony przez WebScale.",
+      "downloadLabel": "Pobierz template",
+      "downloadHref": "https://github.com/Wiktorkulas51/template-t001-nova",
+      "customizeLabel": "Zamów customizację",
+      "customizeHref": "https://webscale.pl/?utm_source=nova-demo&utm_medium=banner&utm_campaign=t001-nova-custom"
+    },
+    "navigation": {
+      "menu": [
+        {
+          "label": "O nas",
+          "href": "#about"
+        },
+        {
+          "label": "Usługi",
+          "href": "#services"
+        },
+        {
+          "label": "Branże",
+          "href": "#industries"
+        },
+        {
+          "label": "Projekty",
+          "href": "#projects"
+        },
+        {
+          "label": "Opinie",
+          "href": "#testimonials"
+        }
+      ],
+      "cta": {
+        "label": "Kontakt",
+        "hoverLabel": "Napisz do nas",
+        "href": "#contact"
+      },
+      "aria": {
+        "menuOpen": "Otwórz menu nawigacji",
+        "menuClose": "Zamknij menu",
+        "menuExpand": "Rozwiń podmenu",
+        "navMain": "Nawigacja główna",
+        "drawer": "Menu nawigacji"
+      },
+      "languageLabel": "Wybierz język"
+    },
+    "sections": {
+      "nova-hero-wireframe": {
+        "eyebrow": "AI / CRM / STRONY NA ZAMÓWIENIE",
+        "heading": "Innowacja dzisiaj.",
+        "headingAccent": "Możliwości jutro.",
+        "description": "Technologia powinna upraszczać złożoność, wspierać innowację i tworzyć realne możliwości. JUSASOL specjalizuje się w sztucznej inteligencji, CRM i stronach na zamówienie.",
+        "primaryCTA": {
+          "label": "Skontaktuj się",
+          "href": "#contact"
+        },
+        "secondaryCTA": {
+          "label": "Zobacz projekty",
+          "href": "#projects"
+        },
+        "trustedBy": "Co budujemy",
+        "trustItems": [
+          "Rozwiązania AI",
+          "Systemy CRM",
+          "Strony na zamówienie"
+        ],
+        "image": "/assets/images/company/team-meeting.jpg",
+        "imageAlt": "Spotkanie zespołu pracowników JUSASOL",
+        "stats": [
+          {
+            "value": "AI",
+            "label": "Inteligentna automatyzacja"
+          },
+          {
+            "value": "CRM",
+            "label": "Systemy dla klientów"
+          },
+          {
+            "value": "Web",
+            "label": "Strony na zamówienie"
+          },
+          {
+            "value": "Partner",
+            "label": "Wartość na dłużej"
+          }
+        ]
+      },
+      "nova-projects": {
+        "title": "Wybrane projekty",
+        "description": "Przykładowe typy prac. Zastąp je potwierdzonymi realizacjami, zanim strona trafi do klientów.",
+        "linkLabel": "Zobacz portfolio",
+        "linkHref": "#projects",
+        "items": [
+          {
+            "category": "Platformy",
+            "title": "Portal operacyjny dla zespołu",
+            "image": "/assets/images/t001-nova/t001-nova-project-laptop.webp",
+            "alt": "Laptop z widokiem aplikacji"
+          },
+          {
+            "category": "Produkty",
+            "title": "Aplikacja dla klientów firmy",
+            "image": "/assets/images/t001-nova/t001-nova-project-building.webp",
+            "alt": "Przykładowa fotografia projektu"
+          }
+        ]
+      },
+      "nova-services": {
+        "title": "Rozwiązania zbudowane wokół Twojej firmy",
+        "description": "Skupiamy się na sztucznej inteligencji, CRM i stronach na zamówienie. Każde rozwiązanie dopasowujemy do tego, jak firma działa, rozmawia z klientami i planuje wzrost.",
+        "linkLabel": "Zobacz usługi",
+        "linkHref": "#services",
+        "items": [
+          {
+            "number": "01.",
+            "icon": "brain",
+            "title": "Rozwój AI",
+            "description": "Zamieniaj pomysły na praktyczne narzędzia biznesowe."
+          },
+          {
+            "number": "02.",
+            "icon": "address-book",
+            "title": "CRM i dopasowanie systemu",
+            "description": "Połącz każdą interakcję z klientem."
+          },
+          {
+            "number": "03.",
+            "icon": "browser",
+            "title": "Strony na zamówienie",
+            "description": "Zbuduj obecność cyfrową, która pracuje razem z firmą."
+          }
+        ]
+      },
+      "nova-team": {
+        "title": "Innowacja dzisiaj. Możliwości jutro.",
+        "description": "W JUSASOL technologia ma upraszczać złożoność, wspierać innowację i tworzyć realne możliwości. Specjalizujemy się w sztucznej inteligencji, CRM i stronach na zamówienie, z podejściem dopasowanym do firmy.",
+        "image": "/assets/images/t001-nova/t001-nova-about-team.webp",
+        "imageAlt": "Osoba pracująca przy laptopie",
+        "checks": [
+          "Rozwiązania od strony biznesu",
+          "Rozwój na zamówienie",
+          "Wartość na dłużej"
+        ],
+        "teamCount": "3",
+        "teamLabel": "główne usługi",
+        "teamAriaLabel": "JUSASOL",
+        "teamAvatars": [],
+        "buttonLabel": "Poznaj firmę",
+        "buttonHref": "#about"
+      },
+      "faq3": {
+        "title": "Najczęściej zadawane pytania",
+        "description": "Najważniejsze informacje o współpracy, procesie i efektach, które mogą Państwa interesować przed rozpoczęciem projektu.",
+        "tagline": "FAQ",
+        "items": [
+          {
+            "q": "Ile trwa przygotowanie nowej strony internetowej?",
+            "a": "Standardowy projekt realizujemy zwykle w ciągu 2 do 4 tygodni. Termin zależy od zakresu strony, liczby podstron oraz szybkości przekazania materiałów."
+          },
+          {
+            "q": "Czy pomagacie w przygotowaniu treści i zdjęć?",
+            "a": "Tak. Możemy uporządkować istniejące materiały, przygotować strukturę treści oraz wskazać kierunek dla zdjęć i grafik, aby całość była spójna z marką."
+          },
+          {
+            "q": "Czy strona będzie dobrze działać na telefonie?",
+            "a": "Tak. Projektujemy od początku z myślą o telefonach, tabletach i komputerach. Każdy kluczowy widok sprawdzamy w kilku szerokościach ekranu."
+          },
+          {
+            "q": "Czy po publikacji mogę samodzielnie edytować stronę?",
+            "a": "Tak. Przygotowujemy strukturę tak, aby najważniejsze treści można było później łatwo aktualizować. Po wdrożeniu przekazujemy również krótką instrukcję obsługi."
+          }
+        ]
+      },
+      "testimonial-v2": {
+        "title": "Relacje oparte na jasności, współpracy i wynikach",
+        "description": "Co klienci mówią o współpracy z JUSASOL.",
+        "tagline": "Opinie",
+        "avatarAltPrefix": "Zdjęcie",
+        "items": [
+          {
+            "quote": "Asystent, którego przygotowało JUSASOL, przejmuje pytania, na które nasz zespół odpowiadał przez cały dzień. Klienci dostają szybszą odpowiedź, a ludzie zajmują się sprawami, które naprawdę potrzebują człowieka.",
+            "author": "Elena Vasquez",
+            "initials": "EV",
+            "role": "Kierowniczka obsługi klienta"
+          },
+          {
+            "quote": "Sprzedaż była rozproszona po arkuszach. CRM, który zbudowali, zbiera leady, przypomnienia i rozmowy w jednym miejscu, a zespół wreszcie widzi ten sam lejek.",
+            "author": "Marcus Hale",
+            "initials": "MH",
+            "role": "Dyrektor sprzedaży"
+          },
+          {
+            "quote": "Nowa strona wyjaśnia, co robimy, bez szukania. Odwiedzający znajdują właściwą usługę i wysyłają zapytanie, a nam łatwo utrzymać treści na bieżąco.",
+            "author": "Hannah Okonkwo",
+            "initials": "HO",
+            "role": "Kierowniczka marketingu"
+          }
+        ]
+      },
+      "features": {
+        "title": "Rozwiązania zbudowane wokół Twojej firmy",
+        "subtitle": "JUSASOL skupia się na trzech powiązanych obszarach: sztucznej inteligencji, CRM i stronach na zamówienie. Każde rozwiązanie dopasowujemy do tego, jak firma działa, rozmawia z klientami i planuje wzrost.",
+        "items": [
+          {
+            "icon": "brain",
+            "title": "Rozwój AI",
+            "description": "Zamieniaj pomysły na praktyczne narzędzia. Tworzymy koncepcje aplikacji AI, które automatyzują powtarzalne zadania, ułatwiają dostęp do informacji i budują bardziej responsywne doświadczenia. W zakresie są asystenci i interfejsy konwersacyjne, automatyzacja pracy, wyszukiwanie wiedzy, przetwarzanie danych i planowanie integracji."
+          },
+          {
+            "icon": "address-book",
+            "title": "CRM i dopasowanie systemu",
+            "description": "Połącz każdą interakcję z klientem. Planujemy i budujemy CRM wokół zespołów, klientów i sprzedaży, od nowego systemu po poprawę istniejącego procesu. W zakresie są kontakty i leady, lejek sprzedaży, pulpity, automatyczne przypomnienia, integracje i uprawnienia ról."
+          },
+          {
+            "icon": "browser",
+            "title": "Strony na zamówienie",
+            "description": "Zbuduj obecność cyfrową, która pracuje razem z firmą. Strony powstają wokół marki, odbiorców i celów: responsywny układ, czytelna nawigacja i funkcje, które da się rozwijać. W zakresie są strony firmowe, aplikacje webowe, zarządzanie treścią, formularze oraz rozwój z myślą o wydajności i wyszukiwarkach."
+          }
+        ]
+      },
+      "portfolio": {
+        "title": "Przykładowe projekty",
+        "description": "Te karty pokazują rodzaje prac, które strona może przedstawić. Przed publikacją zastąp je potwierdzonymi projektami.",
+        "tagline": "Portfolio",
+        "categories": [
+          "Wszystkie",
+          "Platformy",
+          "Produkty",
+          "Dane"
+        ],
+        "items": [
+          {
+            "title": "Portal operacyjny dla zespołu",
+            "category": "Platformy",
+            "img": "/assets/images/t001-nova/t001-nova-project-laptop.webp"
+          },
+          {
+            "title": "Aplikacja dla klientów firmy",
+            "category": "Produkty",
+            "img": "/assets/images/t001-nova/t001-nova-project-building.webp"
+          },
+          {
+            "title": "Widok raportów na istniejących systemach",
+            "category": "Dane",
+            "img": "/assets/images/t001-nova/t001-nova-hero.webp"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Każde dobre rozwiązanie cyfrowe zaczyna się od rozmowy. Niezależnie od tego, czy planujesz AI, CRM, czy stronę na zamówienie, opowiedz o wyzwaniu, celu i wizji.",
+        "email": "",
+        "address": "",
+        "mapUrl": "",
+        "submitLabel": "Wyślij zapytanie",
+        "submittingLabel": "Wysyłanie...",
+        "resetLabel": "Wyślij kolejne",
+        "successMessage": "Dziękujemy za kontakt z JUSASOL! Wiadomość została wysłana. Zespół zapozna się z zapytaniem i odezwie się.",
+        "errorMessage": "Nie udało się wysłać wiadomości. Spróbuj ponownie później.",
+        "formFields": [
+          {
+            "name": "fullname",
+            "label": "Imię i nazwisko",
+            "type": "text",
+            "required": true,
+            "placeholder": "Imię i nazwisko",
+            "autoComplete": "name"
+          },
+          {
+            "name": "email",
+            "label": "E-mail",
+            "type": "email",
+            "required": true,
+            "placeholder": "ty@firma.com",
+            "autoComplete": "email"
+          },
+          {
+            "name": "company",
+            "label": "Nazwa firmy",
+            "type": "text",
+            "required": true,
+            "placeholder": "Nazwa firmy",
+            "autoComplete": "organization"
+          },
+          {
+            "name": "phone",
+            "label": "Telefon",
+            "type": "tel",
+            "required": false,
+            "placeholder": "+1 351 465 2802",
+            "autoComplete": "tel"
+          },
+          {
+            "name": "service",
+            "label": "Interesująca usługa",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "ai",
+                "label": "Rozwój sztucznej inteligencji"
+              },
+              {
+                "value": "crm",
+                "label": "CRM i dopasowanie systemu"
+              },
+              {
+                "value": "web",
+                "label": "Strona na zamówienie"
+              },
+              {
+                "value": "other",
+                "label": "Inne / jeszcze nie wiem"
+              }
+            ]
+          },
+          {
+            "name": "budget",
+            "label": "Budżet projektu (opcjonalnie)",
+            "type": "text",
+            "required": false,
+            "placeholder": "Opcjonalnie",
+            "autoComplete": "off"
+          },
+          {
+            "name": "message",
+            "label": "Szczegóły projektu",
+            "type": "textarea",
+            "required": true,
+            "rows": 5,
+            "placeholder": "Opowiedz krótko o projekcie, celach albo wyzwaniach. Chcemy zrozumieć, co chcesz zbudować.",
+            "autoComplete": "off"
+          }
+        ]
+      },
+      "why-choose": {
+        "title": "Technologia, która pracuje dla firmy",
+        "subtitle": "Każdy projekt zaczynamy od celu biznesowego, a potem budujemy rozwiązanie, które nadal wspiera firmę, gdy potrzeby się zmienią.",
+        "items": [
+          {
+            "icon": "target",
+            "title": "Rozwiązania od strony biznesu",
+            "description": "Zaczynamy od celu, żeby technologia wspierała konkretny rezultat."
+          },
+          {
+            "icon": "sliders",
+            "title": "Rozwój na zamówienie",
+            "description": "Technologia ma dopasować się do firmy. Rozwiązania projektujemy wokół wymagań."
+          },
+          {
+            "icon": "lightbulb",
+            "title": "Myślenie innowacyjne",
+            "description": "Sięgamy po nowoczesne narzędzia i praktyczną innowację, żeby budować elastyczne doświadczenia."
+          },
+          {
+            "icon": "clock",
+            "title": "Wartość na dłużej",
+            "description": "Budujemy rozwiązania, które da się utrzymać także po pierwszym wydaniu."
+          }
+        ]
+      },
+      "company-values": {
+        "title": "Nasze wartości",
+        "subtitle": "Chcemy świata, w którym firmy każdej wielkości mogą używać inteligentnej technologii, żeby działać sprawniej i otwierać nowe możliwości.",
+        "items": [
+          {
+            "icon": "lightbulb",
+            "title": "Innowacja",
+            "description": "Sięgamy po nowe technologie, twórcze myślenie i ciągłe doskonalenie."
+          },
+          {
+            "icon": "handshake",
+            "title": "Uczciwość",
+            "description": "Stawiamy na jasną komunikację, odpowiedzialne praktyki i relacje oparte na szacunku."
+          },
+          {
+            "icon": "medal",
+            "title": "Doskonałość",
+            "description": "Trzymamy wysoką poprzeczkę w planowaniu, projekcie, rozwoju i dostawie."
+          },
+          {
+            "icon": "users",
+            "title": "Współpraca",
+            "description": "Dobra technologia zaczyna się od wspólnego rozumienia celu biznesowego."
+          },
+          {
+            "icon": "heart",
+            "title": "Myślenie od strony klienta",
+            "description": "Potrzeby firmy i doświadczenie użytkownika są w centrum rozwoju."
+          }
+        ]
+      },
+      "leadership": {
+        "title": "Osoby, które prowadzą firmę",
+        "description": "Zespół kierujący JUSASOL.",
+        "items": [
+          {
+            "icon": "user",
+            "image": "/assets/images/leadership/ceo.jpg",
+            "imageAlt": "Lisa Allen, dyrektor generalna",
+            "leaderId": "lisa-allen",
+            "title": "Lisa Allen, dyrektor generalna",
+            "description": "Lisa Allen wyznacza kierunek strategiczny i prowadzi cele biznesowe firmy. Jej rola skupia się na wizji, innowacji i technologii, która tworzy realną wartość dla klientów.",
+            "href": "#contact",
+            "linkLabel": "Napisz do nas"
+          },
+          {
+            "icon": "user",
+            "image": "/assets/images/leadership/coo.jpg",
+            "imageAlt": "Daniel Reeves, dyrektor operacyjny",
+            "leaderId": "daniel-reeves",
+            "title": "Daniel Reeves, dyrektor operacyjny",
+            "description": "Daniel Reeves utrzymuje codzienną pracę w zgodzie z ustaleniami z klientami. Koordynuje dostawę, skład zespołu i rytm pracy, tak aby każde zlecenie miało jasną odpowiedzialność.",
+            "href": "#contact",
+            "linkLabel": "Napisz do nas"
+          },
+          {
+            "icon": "cpu",
+            "image": "/assets/images/leadership/cto.jpg",
+            "imageAlt": "Kevin Koskela, dyrektor techniczny",
+            "leaderId": "kevin-koskela",
+            "title": "Kevin Koskela, dyrektor techniczny",
+            "description": "Kevin Koskela prowadzi kierunek techniczny JUSASOL: strategię technologii, architekturę i rozwiązania, które da się skalować i utrzymywać.",
+            "href": "#contact",
+            "linkLabel": "Napisz do nas"
+          },
+          {
+            "icon": "user",
+            "image": "/assets/images/leadership/project-manager.jpg",
+            "imageAlt": "Rachel Moore, kierowniczka projektu",
+            "leaderId": "rachel-moore",
+            "title": "Rachel Moore, kierowniczka projektu",
+            "description": "Rachel Moore planuje i prowadzi pracę z klientem od pierwszej rozmowy do dostawy. Dba o zakres, termin i komunikację, żeby zespół i klient byli zgodni.",
+            "href": "#contact",
+            "linkLabel": "Napisz do nas"
+          },
+          {
+            "icon": "code",
+            "image": "/assets/images/leadership/technical-leader.jpg",
+            "imageAlt": "Brian Heath, lider techniczny",
+            "leaderId": "brian-heath",
+            "title": "Brian Heath, lider techniczny",
+            "description": "Brian Heath wspiera planowanie techniczne, koordynację rozwoju i wdrożenia. Przekłada wymagania na praktyczne podejście do budowy oprogramowania.",
+            "href": "#contact",
+            "linkLabel": "Napisz do nas"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "eyebrow": "Zbudujmy coś wartościowego",
+      "heading": "Kolejna cyfrowa szansa może zacząć się od zwykłej rozmowy.",
+      "description": "Opowiedz, co chcesz osiągnąć. JUSASOL chętnie sprawdzi, jak może wesprzeć kolejną inicjatywę.",
+      "primaryLabel": "Zacznij projekt już dziś",
+      "primaryHref": "#contact",
+      "secondaryLabel": "Zobacz projekty",
+      "secondaryHref": "#projects",
+      "legalLinks": [
+        {
+          "label": "Polityka prywatności",
+          "href": "/polityka-prywatnosci/"
+        },
+        {
+          "label": "Cookies",
+          "href": "/cookies/"
+        }
+      ],
+      "footerLinks": [
+        {
+          "label": "O nas",
+          "href": "#about"
+        },
+        {
+          "label": "Usługi",
+          "href": "#services"
+        },
+        {
+          "label": "Branże",
+          "href": "#industries"
+        },
+        {
+          "label": "Projekty",
+          "href": "#projects"
+        },
+        {
+          "label": "Opinie",
+          "href": "#testimonials"
+        },
+        {
+          "label": "Kontakt",
+          "href": "#contact"
+        }
+      ],
+      "ariaLegal": "Dokumenty prawne",
+      "ariaNavigation": "Nawigacja stopki",
+      "copyright": "Wszelkie prawa zastrzeżone.",
+      "attributionPrefix": "Projekt i wdrożenie: ",
+      "attributionLinkLabel": "WebScale",
+      "attributionLinkHref": "https://webscale.pl"
+    }
+  },
+  "en": {
+    "page": {
+      "title": "JUSASOL | Professional Services",
+      "description": "JUSASOL specializes in artificial intelligence development, CRM solutions, and custom website development.",
+      "heading": "Innovating today. Empowering tomorrow."
+    },
+    "routes": {
+      "about": {
+        "title": "About us | JUSASOL",
+        "description": "JUSASOL is a software company focused on artificial intelligence, CRM solutions, and custom website development.",
+        "heading": "About JUSASOL"
+      },
+      "portfolio": {
+        "title": "Portfolio | JUSASOL",
+        "description": "Illustrative concepts in AI, CRM, and custom website development. These are not verified completed projects.",
+        "heading": "Our portfolio"
+      },
+      "technologies": {
+        "title": "Technologies | JUSASOL",
+        "description": "Example tools JUSASOL considers for AI, frontend, backend, data, CRM, and cloud work.",
+        "heading": "Our technologies"
+      },
+      "industries": {
+        "title": "Industries | JUSASOL",
+        "description": "How JUSASOL approaches healthcare, finance, retail, education, real estate, and logistics.",
+        "heading": "Industries we serve"
+      },
+      "careers": {
+        "title": "Careers | JUSASOL",
+        "description": "JUSASOL welcomes inquiries from people interested in AI, CRM systems, and custom web applications.",
+        "heading": "Careers at JUSASOL"
+      },
+      "contact": {
+        "title": "Contact us | JUSASOL",
+        "description": "Talk with JUSASOL about an AI application, a CRM, or a custom website.",
+        "heading": "Contact JUSASOL"
+      },
+      "services": {
+        "title": "Services | JUSASOL",
+        "description": "AI development, CRM development and customization, and custom website development from JUSASOL.",
+        "heading": "Services"
+      },
+      "project": {
+        "title": "Projects | JUSASOL",
+        "description": "Illustrative AI, CRM, and website concepts from JUSASOL. These are not verified client projects.",
+        "heading": "Projects"
+      },
+      "testimonials": {
+        "title": "Testimonials | JUSASOL",
+        "description": "Client testimonials will be published after JUSASOL approves them. Sample quotes are not shown as real reviews.",
+        "heading": "Testimonials"
+      }
+    },
+    "demoBanner": {
+      "label": "This template was designed and built by WebScale.",
+      "downloadLabel": "Download template",
+      "downloadHref": "https://github.com/themewagon/nova-astro",
+      "customizeLabel": "Request customization",
+      "customizeHref": "https://webscale.pl/?utm_source=nova-demo&utm_medium=banner&utm_campaign=t001-nova-custom"
+    },
+    "navigation": {
+      "menu": [
+        {
+          "label": "About Us",
+          "href": "#about"
+        },
+        {
+          "label": "Services",
+          "href": "#services"
+        },
+        {
+          "label": "Industries",
+          "href": "#industries"
+        },
+        {
+          "label": "Projects",
+          "href": "#projects"
+        },
+        {
+          "label": "Testimonials",
+          "href": "#testimonials"
+        }
+      ],
+      "cta": {
+        "label": "Contact Us",
+        "hoverLabel": "Let's talk",
+        "href": "#contact"
+      },
+      "aria": {
+        "menuOpen": "Open navigation menu",
+        "menuClose": "Close menu",
+        "menuExpand": "Expand submenu",
+        "navMain": "Main navigation",
+        "drawer": "Navigation menu"
+      },
+      "languageLabel": "Choose language"
+    },
+    "sections": {
+      "nova-hero-wireframe": {
+        "eyebrow": "AI DEVELOPMENT / CRM SOLUTIONS / CUSTOM WEBSITES",
+        "heading": "Innovating today.",
+        "headingAccent": "Empowering tomorrow.",
+        "description": "Technology should simplify complexity, inspire innovation, and create meaningful opportunities. JUSASOL specializes in artificial intelligence, CRM solutions, and custom websites that are intelligent, adaptable, and aligned with the business.",
+        "primaryCTA": {
+          "label": "Get in touch",
+          "href": "#contact"
+        },
+        "secondaryCTA": {
+          "label": "Explore projects",
+          "href": "#projects"
+        },
+        "trustedBy": "What we build",
+        "trustItems": [
+          "AI development",
+          "CRM solutions",
+          "Custom websites"
+        ],
+        "image": "/assets/images/company/team-meeting.jpg",
+        "imageAlt": "JUSASOL employees in a team meeting",
+        "stats": [
+          {
+            "value": "AI",
+            "label": "Intelligent automation"
+          },
+          {
+            "value": "CRM",
+            "label": "Customer systems"
+          },
+          {
+            "value": "Web",
+            "label": "Custom websites"
+          },
+          {
+            "value": "Partner",
+            "label": "Long-term value"
+          }
+        ]
+      },
+      "nova-projects": {
+        "title": "Selected projects",
+        "description": "Example kinds of work. Replace them with confirmed projects before this site is published.",
+        "linkLabel": "View portfolio",
+        "linkHref": "#projects",
+        "items": [
+          {
+            "category": "Platforms",
+            "title": "An operations portal for an internal team",
+            "image": "/assets/images/t001-nova/t001-nova-project-laptop.webp",
+            "alt": "Laptop showing an application"
+          },
+          {
+            "category": "Products",
+            "title": "A customer application for a company",
+            "image": "/assets/images/t001-nova/t001-nova-project-building.webp",
+            "alt": "Example photograph used for a project"
+          }
+        ]
+      },
+      "nova-services": {
+        "title": "Solutions built around your business",
+        "description": "We focus on artificial intelligence, customer relationship management, and custom website development, and we align each solution with how a business operates, engages customers, and plans for growth.",
+        "linkLabel": "View services",
+        "linkHref": "#services",
+        "items": [
+          {
+            "number": "01.",
+            "icon": "brain",
+            "title": "AI development",
+            "description": "Turn intelligent ideas into practical business tools."
+          },
+          {
+            "number": "02.",
+            "icon": "address-book",
+            "title": "CRM development and customization",
+            "description": "Make every customer interaction more connected."
+          },
+          {
+            "number": "03.",
+            "icon": "browser",
+            "title": "Custom website development",
+            "description": "Build a digital presence that works as hard as you do."
+          }
+        ]
+      },
+      "nova-team": {
+        "title": "Innovating today. Empowering tomorrow.",
+        "description": "At JUSASOL, technology should simplify complexity, inspire innovation, and create meaningful opportunities. We specialize in artificial intelligence, CRM solutions, and custom websites, with a tailored approach instead of one-size-fits-all solutions.",
+        "image": "/assets/images/t001-nova/t001-nova-about-team.webp",
+        "imageAlt": "Person working on a laptop",
+        "checks": [
+          "Business-focused solutions",
+          "Customized development",
+          "Long-term value"
+        ],
+        "teamCount": "3",
+        "teamLabel": "core services",
+        "teamAriaLabel": "JUSASOL",
+        "teamAvatars": [],
+        "buttonLabel": "Discover our company",
+        "buttonHref": "#about"
+      },
+      "faq3": {
+        "title": "Frequently asked questions",
+        "description": "The key information about our process, collaboration and outcomes before you start a project.",
+        "tagline": "FAQ",
+        "items": [
+          {
+            "q": "How long does it take to prepare a new website?",
+            "a": "A standard project usually takes 2 to 4 weeks. The timeline depends on the scope, number of pages and how quickly the materials are provided."
+          },
+          {
+            "q": "Can you help prepare the copy and images?",
+            "a": "Yes. We can organise existing materials, prepare the content structure and recommend a direction for imagery and graphics that fits the brand."
+          },
+          {
+            "q": "Will the website work well on mobile?",
+            "a": "Yes. We design for phones, tablets and desktops from the start. Every key view is checked across several screen sizes."
+          },
+          {
+            "q": "Can I edit the website after launch?",
+            "a": "Yes. We structure the project so the most important content can be updated easily. We also provide a short handover guide after launch."
+          }
+        ]
+      },
+      "testimonial-v2": {
+        "title": "Relationships built on clarity, collaboration, and results",
+        "description": "What clients say about working with JUSASOL.",
+        "tagline": "Testimonials",
+        "avatarAltPrefix": "Photo of",
+        "items": [
+          {
+            "quote": "The assistant JUSASOL shaped for us handles the questions our team used to answer all day. Customers get a faster reply, and our people spend their time on the issues that actually need them.",
+            "author": "Elena Vasquez",
+            "initials": "EV",
+            "role": "Customer operations lead"
+          },
+          {
+            "quote": "Our sales work used to live in separate spreadsheets. The CRM they built gives every lead, follow-up, and conversation one place, and the team finally sees the same pipeline.",
+            "author": "Marcus Hale",
+            "initials": "MH",
+            "role": "Sales director"
+          },
+          {
+            "quote": "The new website explains what we do without making people hunt for it. Visitors find the right service and send an inquiry, and the site is easy for our team to keep current.",
+            "author": "Hannah Okonkwo",
+            "initials": "HO",
+            "role": "Marketing manager"
+          }
+        ]
+      },
+      "features": {
+        "title": "Solutions built around your business",
+        "subtitle": "JUSASOL focuses on three connected areas: artificial intelligence, customer relationship management, and custom website development. Each solution is shaped around how a business operates, engages customers, and plans for growth.",
+        "items": [
+          {
+            "icon": "brain",
+            "title": "AI development",
+            "description": "Turn intelligent ideas into practical business tools. We develop concepts for AI-powered applications that automate repetitive tasks, make information easier to access, and create more responsive digital experiences. Potential capabilities include AI assistants and conversational interfaces, workflow automation, AI-enabled knowledge search, intelligent data processing, and integration planning."
+          },
+          {
+            "icon": "address-book",
+            "title": "CRM development and customization",
+            "description": "Make every customer interaction more connected. We plan and build CRM experiences around your teams, customers, and sales processes, whether that is a tailored system or an improvement to an existing workflow. Potential capabilities include contact and lead management, sales pipeline workflows, custom dashboards, follow-up automation, CRM integrations, and role-based access."
+          },
+          {
+            "icon": "browser",
+            "title": "Custom website development",
+            "description": "Build a digital presence that works as hard as you do. Websites are shaped by the brand, the audience, and the business goals, with responsive design, clear navigation, and functionality that can evolve. Potential capabilities include corporate websites, custom web applications, content management, inquiry forms, and performance and SEO-conscious development."
+          }
+        ]
+      }
+    },
+    "footer": {
+      "eyebrow": "Let's build something meaningful",
+      "heading": "Your next digital opportunity could begin with a simple conversation.",
+      "description": "Tell us what you want to achieve. JUSASOL would welcome the chance to explore your next digital initiative.",
+      "primaryLabel": "Start your project today",
+      "primaryHref": "#contact",
+      "secondaryLabel": "Explore projects",
+      "secondaryHref": "#projects",
+      "legalLinks": [
+        {
+          "label": "Privacy policy",
+          "href": "/polityka-prywatnosci/"
+        },
+        {
+          "label": "Cookies",
+          "href": "/cookies/"
+        }
+      ],
+      "footerLinks": [
+        {
+          "label": "About Us",
+          "href": "#about"
+        },
+        {
+          "label": "Services",
+          "href": "#services"
+        },
+        {
+          "label": "Industries",
+          "href": "#industries"
+        },
+        {
+          "label": "Projects",
+          "href": "#projects"
+        },
+        {
+          "label": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "label": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "ariaLegal": "Legal documents",
+      "ariaNavigation": "Footer navigation",
+      "copyright": "All rights reserved.",
+      "attributionPrefix": "Design and development by ",
+      "attributionLinkLabel": "WebScale",
+      "attributionLinkHref": "https://webscale.pl"
+    }
+  }
+}

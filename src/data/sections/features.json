@@ -1,0 +1,21 @@
+{
+  "title": "Solutions built around your business",
+  "subtitle": "JUSASOL focuses on three connected areas: artificial intelligence, customer relationship management, and custom website development. Each solution is shaped around how a business operates, engages customers, and plans for growth.",
+  "items": [
+    {
+      "icon": "brain",
+      "title": "AI development",
+      "description": "Turn intelligent ideas into practical business tools. We develop concepts for AI-powered applications that automate repetitive tasks, make information easier to access, and create more responsive digital experiences. Potential capabilities include AI assistants and conversational interfaces, workflow automation, AI-enabled knowledge search, intelligent data processing, and integration planning."
+    },
+    {
+      "icon": "address-book",
+      "title": "CRM development and customization",
+      "description": "Make every customer interaction more connected. We plan and build CRM experiences around your teams, customers, and sales processes, whether that is a tailored system or an improvement to an existing workflow. Potential capabilities include contact and lead management, sales pipeline workflows, custom dashboards, follow-up automation, CRM integrations, and role-based access."
+    },
+    {
+      "icon": "browser",
+      "title": "Custom website development",
+      "description": "Build a digital presence that works as hard as you do. Websites are shaped by the brand, the audience, and the business goals, with responsive design, clear navigation, and functionality that can evolve. Potential capabilities include corporate websites, custom web applications, content management, inquiry forms, and performance and SEO-conscious development."
+    }
+  ]
+}

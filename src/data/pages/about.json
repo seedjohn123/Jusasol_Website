@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "About us | JUSASOL",
+    "description": "JUSASOL is a software company focused on artificial intelligence, CRM solutions, and custom website development."
+  },
+  "heading": "About JUSASOL",
+  "sections": [
+    {
+      "id": "navbar",
+      "variant": "floating"
+    },
+    {
+      "id": "aboutSplit",
+      "variant": "default"
+    },
+    {
+      "id": "companyValues",
+      "variant": "default"
+    },
+    {
+      "id": "leadership",
+      "variant": "default"
+    },
+    {
+      "id": "footer",
+      "variant": "nova"
+    }
+  ],
+  "enabled": false
+}

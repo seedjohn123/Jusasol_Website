@@ -1,0 +1,74 @@
+{
+  "pl": {
+    "heading": "Nowoczesna technologia. Celowa innowacja.",
+    "intro": "Każdy udany produkt zaczyna się od trafnych decyzji technologicznych. Dobieramy narzędzia do celu biznesowego, wymagań aplikacji i dalszego rozwoju. Nazwy poniżej to przykłady, nie zobowiązanie do konkretnego stosu.",
+    "items": [
+      {
+        "icon": "brain",
+        "title": "Sztuczna inteligencja i uczenie maszynowe",
+        "description": "Automatyzacja, wnioski z danych, przetwarzanie języka i bardziej inteligentne interakcje. Przykłady: Python, TensorFlow, PyTorch, OpenAI APIs, LangChain."
+      },
+      {
+        "icon": "browser",
+        "title": "Frontend",
+        "description": "Responsywne i dostępne interfejsy na różnych urządzeniach. Przykłady: React.js, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS."
+      },
+      {
+        "icon": "gear",
+        "title": "Backend",
+        "description": "Bezpieczna architektura, sprawne przetwarzanie danych i niezawodne integracje. Przykłady: Node.js, Express.js, Python, FastAPI, REST API."
+      },
+      {
+        "icon": "database",
+        "title": "Bazy danych",
+        "description": "Przechowywanie i odczyt informacji, które da się rozwijać razem z aplikacją. Przykłady: PostgreSQL, MySQL, MongoDB, Redis."
+      },
+      {
+        "icon": "address-book",
+        "title": "Platformy CRM i integracje",
+        "description": "Porządek w danych klientów, automatyzacja pracy i lepszy wgląd w operacje. Przykłady: Salesforce, HubSpot, Zoho CRM oraz systemy CRM na zamówienie."
+      },
+      {
+        "icon": "cloud",
+        "title": "Chmura i wdrożenia",
+        "description": "Dostępność, skalowanie i utrzymanie aplikacji. Przykłady: AWS, Microsoft Azure, Docker, GitHub Actions."
+      }
+    ]
+  },
+  "en": {
+    "heading": "Modern technology. Purposeful innovation.",
+    "intro": "Every successful digital product begins with the right technology decisions. We choose tools, frameworks, and platforms that fit the business objective, the application, and long-term scale. The names below are examples, not a commitment to a single stack.",
+    "items": [
+      {
+        "icon": "brain",
+        "title": "Artificial intelligence and machine learning",
+        "description": "Automation, data-driven insight, natural language processing, and richer digital interactions. Examples: Python, TensorFlow, PyTorch, OpenAI APIs, LangChain."
+      },
+      {
+        "icon": "browser",
+        "title": "Frontend development",
+        "description": "Responsive, accessible interfaces that work across devices. Examples: React.js, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS."
+      },
+      {
+        "icon": "gear",
+        "title": "Backend development",
+        "description": "Secure architecture, efficient data processing, and reliable integrations. Examples: Node.js, Express.js, Python, FastAPI, REST APIs."
+      },
+      {
+        "icon": "database",
+        "title": "Database technologies",
+        "description": "Storage and retrieval that can change with the application. Examples: PostgreSQL, MySQL, MongoDB, Redis."
+      },
+      {
+        "icon": "address-book",
+        "title": "CRM platforms and integrations",
+        "description": "Customer information in one place, automated workflows, and clearer operations. Examples: Salesforce, HubSpot, Zoho CRM, and custom CRM systems."
+      },
+      {
+        "icon": "cloud",
+        "title": "Cloud and deployment",
+        "description": "Availability, scale, and maintainability. Examples: AWS, Microsoft Azure, Docker, GitHub Actions."
+      }
+    ]
+  }
+}

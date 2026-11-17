@@ -1,0 +1,62 @@
+{
+  "pl": {
+    "title": "Pomysły zamienione w doświadczenia cyfrowe",
+    "description": "JUSASOL pokazuje tu przykłady z zakresu AI, CRM i stron internetowych. To koncepcje ilustracyjne, a nie potwierdzone realizacje klientów. Przed publikacją zastąp je zatwierdzonymi materiałami.",
+    "items": [
+      {
+        "image": "/assets/images/company/ai-support.jpg",
+        "icon": "brain",
+        "title": "Inteligentny asystent obsługi klienta",
+        "description": "Koncepcja platformy AI do obsługi zapytań, automatyzacji powtarzalnych odpowiedzi i sprawniejszej obsługi. Wyzwanie to duża liczba powtarzalnych pytań i opóźnione odpowiedzi. Rozwiązanie rozumie typowe prośby, sięga do informacji, odpowiada automatycznie i przekazuje trudniejsze sprawy ludziom. W zakresie są baza wiedzy, eskalacja, historia rozmów i panel wyników.",
+        "href": "#contact-project",
+        "linkLabel": "Porozmawiajmy o projekcie"
+      },
+      {
+        "image": "/assets/images/company/crm-sales.jpg",
+        "icon": "address-book",
+        "title": "CRM sprzedaży i klientów",
+        "description": "Koncepcja CRM, który zbiera dane klientów, szanse sprzedaży, historię kontaktu i przebieg pracy. Rozproszone arkusze utrudniają śledzenie szans i spójną komunikację. System obejmuje leady i kontakty, lejek sprzedaży, przypomnienia, uprawnienia, raporty i historię rozmów.",
+        "href": "#contact-project",
+        "linkLabel": "Porozmawiajmy o projekcie"
+      },
+      {
+        "image": "/assets/images/company/corporate-website.jpg",
+        "icon": "browser",
+        "title": "Firmowa platforma cyfrowa",
+        "description": "Koncepcja strony, która wzmacnia wizerunek, pokazuje możliwości firmy i prowadzi do zapytania. Liczy się wydajność, nawigacja i realny kontakt. W zakresie są responsywny układ, strony usług, zarządzanie treścią, struktura przyjazna wyszukiwarkom, formularze i optymalizacja działania.",
+        "href": "#contact-project",
+        "linkLabel": "Porozmawiajmy o projekcie"
+      }
+    ]
+  },
+  "en": {
+    "title": "Ideas transformed into digital experiences",
+    "description": "JUSASOL focuses on intelligent AI applications, customized CRM platforms, and modern web experiences, with an emphasis on usability, scale, and real business problems. The examples below show areas of expertise. They are illustrative concepts, not verified client work, and should be replaced with approved materials before publication.",
+    "items": [
+      {
+        "image": "/assets/images/company/ai-support.jpg",
+        "icon": "brain",
+        "title": "Intelligent AI customer support assistant",
+        "description": "An AI support concept for managing inquiries, automating repetitive replies, and improving efficiency. Teams often face repeated questions, slow responses, and a growing workload. The assistant understands common requests, retrieves relevant information, answers automatically, and escalates complex cases. Capabilities include conversational assistance, knowledge-base search, human escalation, interaction history, and a performance dashboard.",
+        "href": "#contact-project",
+        "linkLabel": "Discuss this project"
+      },
+      {
+        "image": "/assets/images/company/crm-sales.jpg",
+        "icon": "address-book",
+        "title": "Custom sales and customer management CRM",
+        "description": "A CRM concept for customer information, sales opportunities, communication history, and workflows in one place. Spreadsheets and fragmented records make it hard to track opportunities and stay consistent. The system covers leads and contacts, pipeline tracking, follow-up reminders, role-based access, reporting, and communication history.",
+        "href": "#contact-project",
+        "linkLabel": "Discuss this project"
+      },
+      {
+        "image": "/assets/images/company/corporate-website.jpg",
+        "icon": "browser",
+        "title": "Corporate digital experience platform",
+        "description": "A website concept for a clearer brand, a plain account of what the company does, and a path from visitor to inquiry. Visual appeal is not enough. The site needs performance, navigation, and a real way to engage. It includes responsive design, custom service pages, content management, a search-friendly structure, lead forms, and performance work.",
+        "href": "#contact-project",
+        "linkLabel": "Discuss this project"
+      }
+    ]
+  }
+}

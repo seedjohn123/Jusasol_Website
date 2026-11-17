@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "seo": {
+    "title": "Portfolio | JUSASOL",
+    "description": "Illustrative concepts in AI, CRM, and custom website development. These are not verified completed projects."
+  },
+  "heading": "Our portfolio",
+  "sections": [
+    { "id": "navbar", "variant": "floating" },
+    { "id": "servicesZigzag", "variant": "default" },
+    { "id": "footer", "variant": "nova" }
+  ]
+}

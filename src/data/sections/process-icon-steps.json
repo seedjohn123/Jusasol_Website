@@ -1,0 +1,20 @@
+{
+  "pl": {
+    "heading": "Jak pracujemy",
+    "steps": [
+      { "num": 1, "title": "Poznanie", "description": "Zaczynamy od celów, użytkowników i wyzwań operacyjnych.", "icon": "diagnose" },
+      { "num": 2, "title": "Projekt", "description": "Układamy praktyczne rozwiązanie: doświadczenie, funkcje i potrzebne integracje.", "icon": "plan" },
+      { "num": 3, "title": "Budowa", "description": "Zatwierdzone wymagania zamieniamy w rozwiązanie, które da się używać i utrzymywać.", "icon": "implement" },
+      { "num": 4, "title": "Rozwój", "description": "Patrzymy, jak produkt może rosnąć razem ze zmieniającymi się potrzebami firmy.", "icon": "monitor" }
+    ]
+  },
+  "en": {
+    "heading": "Our approach",
+    "steps": [
+      { "num": 1, "title": "Discover", "description": "We begin by understanding your objectives, users, and operational challenges.", "icon": "diagnose" },
+      { "num": 2, "title": "Design", "description": "We shape a practical solution and define the experience, features, and integrations required.", "icon": "plan" },
+      { "num": 3, "title": "Develop", "description": "We turn approved requirements into a solution with attention to usability and maintainability.", "icon": "implement" },
+      { "num": 4, "title": "Evolve", "description": "We consider how the product can improve as your business needs change.", "icon": "monitor" }
+    ]
+  }
+}

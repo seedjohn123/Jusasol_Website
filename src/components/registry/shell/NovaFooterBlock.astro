@@ -1,0 +1,83 @@
+---
+import companyRaw from "@data/global/company.json";
+import { getNovaNavigationPath, type NovaLocale } from "@utils/nova-i18n";
+
+interface Props {
+  locale?: NovaLocale;
+}
+
+const { locale = "en" } = Astro.props as Props;
+const company = companyRaw;
+const footerName = "JUSASOL.LLC";
+const isEn = locale === "en";
+const homeHref = getNovaNavigationPath("/", locale);
+const aboutHref = `${homeHref}#about`;
+const contactHref = `${homeHref}#contact`;
+const privacyHref = getNovaNavigationPath("/polityka-prywatnosci/", locale);
+const copy = isEn
+  ? {
+      tagline: "Providing reliable, professional services to our clients.",
+      contact: "Contact Us",
+      email: "Email",
+      phone: "Phone",
+      location: "Location",
+      links: "Quick Links",
+      home: "Home",
+      about: "About Us",
+      contactLink: "Contact",
+      privacy: "Privacy Policy",
+      rights: "All rights reserved.",
+    }
+  : {
+      tagline: "Zapewniamy klientom rzetelne, profesjonalne usługi.",
+      contact: "Kontakt",
+      email: "E-mail",
+      phone: "Telefon",
+      location: "Lokalizacja",
+      links: "Szybkie linki",
+      home: "Strona główna",
+      about: "O nas",
+      contactLink: "Kontakt",
+      privacy: "Polityka prywatności",
+      rights: "Wszelkie prawa zastrzeżone.",
+    };
+---
+
+<footer class="bg-[#07080d] text-white">
+  <div class="ui-container py-5">
+    <div class="rounded-2xl bg-[#1c2744] px-6 py-4 sm:px-8">
+      <p class="text-base font-bold tracking-wide">{footerName}</p>
+      <p class="mt-1 text-sm leading-5 text-white/75">{copy.tagline}</p>
+
+      <hr class="my-3 border-white/20" />
+
+      <div class="grid gap-4 sm:grid-cols-2 sm:gap-10">
+        <div>
+          <p class="text-sm font-bold">{copy.contact}</p>
+          <p class="mt-1 text-sm leading-5 text-white/80">
+            {copy.email}: <a class="underline-offset-2 hover:underline" href={`mailto:${company.email}`}>{company.email}</a>
+          </p>
+          <p class="text-sm leading-5 text-white/80">
+            {copy.phone}: <a class="underline-offset-2 hover:underline" href={`tel:${company.phone.replace(/\s+/g, "")}`}>{company.phone}</a>
+          </p>
+          <p class="text-sm leading-5 text-white/80">
+            {copy.location}: {company.address}, {company.city}, NC {company.zipCode}, USA
+          </p>
+        </div>
+        <div>
+          <p class="text-sm font-bold">{copy.links}</p>
+          <ul class="mt-1 space-y-0.5 text-sm leading-5 text-white/80">
+            <li><a class="hover:underline" href={homeHref}>{copy.home}</a></li>
+            <li><a class="hover:underline" href={aboutHref}>{copy.about}</a></li>
+            <li><a class="hover:underline" href={contactHref}>{copy.contactLink}</a></li>
+            <li><a class="hover:underline" href={privacyHref}>{copy.privacy}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="my-3 border-white/20" />
+
+      <p class="text-center text-sm leading-5 text-white/70">© 2026 {footerName}. {copy.rights}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,34 @@
+{
+  "fullName": "JUSASOL",
+  "name": "JUSASOL",
+  "branding": {
+    "icon": "ph-star",
+    "font": "Satoshi",
+    "tagline": "AI development, CRM solutions, and custom websites",
+    "logoImage": "/assets/images/brand/logo.png",
+    "favicon": "/favicon.svg",
+    "logoSuffix": "Logo"
+  },
+  "address": "204 West Charleston Avenue",
+  "zipCode": "28778",
+  "city": "Swannanoa",
+  "phone": "+1 351 465 2802",
+  "email": "lisaallen@jusasolllc.com",
+  "hours": "",
+  "nip": "",
+  "krs": "",
+  "regon": "",
+  "siteUrl": "https://www.jusasolllc.com",
+  "smtp": {
+    "smtpHost": "",
+    "smtpPort": 587,
+    "smtpUser": "",
+    "smtpPass": ""
+  },
+  "socials": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "twitter": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Our core values",
+  "subtitle": "Our vision is a digitally connected world where businesses of all sizes can use intelligent technology to operate efficiently and open new opportunities. These are the values behind that work.",
+  "items": [
+    {
+      "icon": "lightbulb",
+      "title": "Innovation",
+      "description": "We use emerging technology, creative thinking, and continuous improvement to respond to changing business needs."
+    },
+    {
+      "icon": "handshake",
+      "title": "Integrity",
+      "description": "We believe in transparent communication, responsible practices, and relationships built on honesty and respect."
+    },
+    {
+      "icon": "medal",
+      "title": "Excellence",
+      "description": "We hold a high standard in planning, design, development, and delivery, including quality, performance, and usability."
+    },
+    {
+      "icon": "users",
+      "title": "Collaboration",
+      "description": "Successful technology starts with a shared understanding of the business goal."
+    },
+    {
+      "icon": "heart",
+      "title": "Customer-centric thinking",
+      "description": "Business needs and the user experience sit at the center of how we develop."
+    }
+  ]
+}

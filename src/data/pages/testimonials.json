@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "Testimonials | JUSASOL",
+    "description": "Client testimonials will be published after JUSASOL approves them. Sample quotes are not shown as real reviews."
+  },
+  "heading": "Testimonials",
+  "sections": [
+    {
+      "id": "navbar",
+      "variant": "floating"
+    },
+    {
+      "id": "testimonials",
+      "variant": "v2"
+    },
+    {
+      "id": "footer",
+      "variant": "nova"
+    }
+  ],
+  "enabled": false
+}

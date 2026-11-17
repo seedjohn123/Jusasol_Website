@@ -1,0 +1,56 @@
+---
+import Layout from "@layouts/Layout.astro";
+import PageBuilder from "@components/PageBuilder.astro";
+import type { PageConfig } from "@/types/config";
+import { pageModules } from "@data/pages/_registry";
+import { BUILD_SCOPE } from "../../../site.config.mjs";
+import { isPageAllowed, getFullBleedTop } from "@utils/page-scope";
+import { getNovaCopy, type NovaLocale } from "@utils/nova-i18n";
+
+export async function getStaticPaths() {
+  const isAllowed = (slug: string): boolean => isPageAllowed(slug, BUILD_SCOPE.pages as string[]);
+  return Object.entries(pageModules)
+    .map(([path, module]) => ({
+      path,
+      config: (module as { default?: PageConfig }).default,
+    }))
+    .filter(({ config }) => config?.enabled !== false)
+    .filter(({ config }) => !import.meta.env.PROD || config?.devOnly !== true)
+    .map(({ path }) => {
+      const slug = path.split("/").pop()?.replace(".json", "") || "";
+      return { params: { page: slug } };
+    })
+    .filter(({ params }) => params.page && params.page !== "index" && params.page !== "blog")
+    .filter(({ params }) => !import.meta.env.PROD || isAllowed(params.page));
+}
+
+const slug = Astro.params.page || "";
+const config: PageConfig | undefined = (
+  pageModules[`/src/data/pages/${slug}.json`] as { default?: PageConfig } | undefined
+)?.default;
+
+if (!config) {
+  return Astro.redirect("/pl/");
+}
+
+const locale: NovaLocale = "pl";
+const routeCopy = getNovaCopy(locale).routes?.[slug];
+const sections = (config.sections ?? []) as { id: string; variant?: string }[];
+const navbarSection = sections.find((s) => s.id === "navbar");
+const footerSection = sections.find((s) => s.id === "footer");
+const fullBleedTop = getFullBleedTop(navbarSection?.variant, sections.map((s) => s.id));
+---
+
+<Layout
+  title={routeCopy?.title ?? config.seo?.title}
+  description={routeCopy?.description ?? config.seo?.description}
+  theme={config.layout?.theme}
+  sectionPattern={config.layout?.sectionPattern}
+  navbarVariant={navbarSection?.variant}
+  footerVariant={footerSection?.variant}
+  fullBleedTop={fullBleedTop}
+  locale={locale}
+  lang={locale}
+>
+  <PageBuilder heading={routeCopy?.heading ?? config.heading} sections={config.sections} locale={locale} />
+</Layout>

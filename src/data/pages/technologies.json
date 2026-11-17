@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "seo": {
+    "title": "Technologies | JUSASOL",
+    "description": "Example tools JUSASOL considers for AI, frontend, backend, data, CRM, and cloud work."
+  },
+  "heading": "Our technologies",
+  "sections": [
+    { "id": "navbar", "variant": "floating" },
+    { "id": "featureGrid", "variant": "default" },
+    { "id": "footer", "variant": "nova" }
+  ]
+}

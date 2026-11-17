@@ -1,0 +1,98 @@
+{
+  "pl": {
+    "title": "Technologia wokół realnych wyzwań",
+    "description": "Każda branża ma inne procesy, oczekiwania klientów i możliwości cyfryzacji. Skupienie JUSASOL na AI, CRM i stronach pozwala szukać rozwiązań dopasowanych do sektora.",
+    "items": [
+      {
+        "icon": "heartbeat",
+        "title": "Ochrona zdrowia",
+        "description": "Sprawna komunikacja, dostępne usługi cyfrowe i porządek w pracy administracyjnej. Możemy budować zapytania o wizyty, narzędzia workflow, strony dla pacjentów i rozwiązania kontaktu z klientem, z uwzględnieniem prywatności i wymogów regulacyjnych już na etapie planu.",
+        "href": "#contact-project",
+        "linkLabel": "Poznajmy Twój projekt"
+      },
+      {
+        "icon": "bank",
+        "title": "Finanse i usługi profesjonalne",
+        "description": "Uporządkowane operacje, dane klientów i pewne doświadczenia cyfrowe. W grę wchodzą CRM, automatyzacja pracy, portale klientów i strony firmowe.",
+        "href": "#contact-project",
+        "linkLabel": "Poznajmy Twój projekt"
+      },
+      {
+        "icon": "storefront",
+        "title": "Handel i e-commerce",
+        "description": "Witryny, które sprzedają, porządek w klientach i narzędzia do bardziej osobistej obsługi. Możemy budować sklepy, integracje CRM, wsparcie z AI i workflow biznesowy.",
+        "href": "#contact-project",
+        "linkLabel": "Poznajmy Twój projekt"
+      },
+      {
+        "icon": "graduation-cap",
+        "title": "Edukacja i e-learning",
+        "description": "Platformy do kontaktu z uczącymi się i do pracy administracyjnej. W zakresie są strony edukacyjne, systemy zapytań, portale i inteligentne narzędzia wsparcia.",
+        "href": "#contact-project",
+        "linkLabel": "Poznajmy Twój projekt"
+      },
+      {
+        "icon": "house",
+        "title": "Nieruchomości",
+        "description": "Leady, szybki kontakt i dostęp do informacji o ofertach. Możemy budować strony z ofertami, systemy leadów, integracje CRM i automatyczne zapytania.",
+        "href": "#contact-project",
+        "linkLabel": "Poznajmy Twój projekt"
+      },
+      {
+        "icon": "truck",
+        "title": "Logistyka i operacje",
+        "description": "Wspólny obraz informacji, koordynacja i prostsze procesy wewnętrzne. W zakresie są pulpity operacyjne, portale, powiadomienia i zarządzanie workflow.",
+        "href": "#contact-project",
+        "linkLabel": "Poznajmy Twój projekt"
+      }
+    ]
+  },
+  "en": {
+    "title": "Technology built around real business challenges",
+    "description": "Every industry has its own operations, customer expectations, and chances for digital change. JUSASOL focuses on AI, CRM, and custom websites so the solution can fit the sector.",
+    "items": [
+      {
+        "icon": "heartbeat",
+        "title": "Healthcare",
+        "description": "Healthcare organizations need clear communication, accessible digital services, and reliable administrative workflows. We can help with appointment inquiries, workflow tools, patient-facing websites, and customer engagement, with privacy and regulatory requirements considered during planning.",
+        "href": "#contact-project",
+        "linkLabel": "Explore your project with us"
+      },
+      {
+        "icon": "bank",
+        "title": "Finance and professional services",
+        "description": "These firms benefit from streamlined operations, organized client information, and dependable digital experiences. Potential work includes customized CRM platforms, workflow automation, client portals, and professional websites.",
+        "href": "#contact-project",
+        "linkLabel": "Explore your project with us"
+      },
+      {
+        "icon": "storefront",
+        "title": "Retail and eCommerce",
+        "description": "Retail needs engaging storefronts, efficient customer management, and tools for more personal experiences. We can develop custom eCommerce websites, customer-management integrations, AI-assisted support, and business workflows.",
+        "href": "#contact-project",
+        "linkLabel": "Explore your project with us"
+      },
+      {
+        "icon": "graduation-cap",
+        "title": "Education and eLearning",
+        "description": "Schools and training providers rely on digital platforms to reach learners and run administration. Solutions can include educational websites, inquiry management, digital portals, and intelligent support tools.",
+        "href": "#contact-project",
+        "linkLabel": "Explore your project with us"
+      },
+      {
+        "icon": "house",
+        "title": "Real estate",
+        "description": "Real estate depends on lead management, timely communication, and accessible property information. We can build listing websites, lead systems, CRM integrations, and automated inquiry workflows.",
+        "href": "#contact-project",
+        "linkLabel": "Explore your project with us"
+      },
+      {
+        "icon": "truck",
+        "title": "Logistics and operations",
+        "description": "Operations teams benefit from centralized information, coordination, and simpler internal workflows. Potential work includes operational dashboards, business portals, automated notifications, and workflow systems.",
+        "href": "#contact-project",
+        "linkLabel": "Explore your project with us"
+      }
+    ]
+  }
+}

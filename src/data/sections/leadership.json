@@ -1,0 +1,56 @@
+{
+  "title": "Meet our leadership",
+  "description": "The people guiding JUSASOL.",
+  "items": [
+    {
+      "icon": "user",
+      "image": "/assets/images/leadership/ceo.jpg",
+      "imageAlt": "Lisa Allen, Chief Executive Officer",
+      "leaderId": "lisa-allen",
+      "title": "Lisa Allen, Chief Executive Officer",
+      "description": "Lisa Allen provides strategic direction and leadership for the company's business objectives. Her role centers on guiding the vision, encouraging innovation, and keeping the focus on technology that creates meaningful value for clients.",
+      "href": "#contact",
+      "linkLabel": "Get in touch"
+    },
+    {
+      "icon": "user",
+      "image": "/assets/images/leadership/coo.jpg",
+      "imageAlt": "Daniel Reeves, Chief Operating Officer",
+      "leaderId": "daniel-reeves",
+      "title": "Daniel Reeves, Chief Operating Officer",
+      "description": "Daniel Reeves keeps daily operations lined up with client commitments. He coordinates delivery, staffing, and the working rhythm so each engagement moves from agreement to a finished result with clear ownership.",
+      "href": "#contact",
+      "linkLabel": "Get in touch"
+    },
+    {
+      "icon": "cpu",
+      "image": "/assets/images/leadership/cto.jpg",
+      "imageAlt": "Kevin Koskela, Chief Technology Officer",
+      "leaderId": "kevin-koskela",
+      "title": "Kevin Koskela, Chief Technology Officer",
+      "description": "Kevin Koskela provides technical leadership for JUSASOL's development direction, including technology strategy, software architecture, and solutions that stay scalable and maintainable.",
+      "href": "#contact",
+      "linkLabel": "Get in touch"
+    },
+    {
+      "icon": "user",
+      "image": "/assets/images/leadership/project-manager.jpg",
+      "imageAlt": "Rachel Moore, Project Manager",
+      "leaderId": "rachel-moore",
+      "title": "Rachel Moore, Project Manager",
+      "description": "Rachel Moore plans and guides client work from the first conversation through delivery. She keeps scope, timeline, and communication clear so the team and the client stay aligned.",
+      "href": "#contact",
+      "linkLabel": "Get in touch"
+    },
+    {
+      "icon": "code",
+      "image": "/assets/images/leadership/technical-leader.jpg",
+      "imageAlt": "Brian Heath, Technical Leader",
+      "leaderId": "brian-heath",
+      "title": "Brian Heath, Technical Leader",
+      "description": "Brian Heath supports technical planning, development coordination, and implementation. His role turns technical requirements into practical development approaches, with attention to quality and collaboration.",
+      "href": "#contact",
+      "linkLabel": "Get in touch"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "Industries | JUSASOL",
+    "description": "How JUSASOL approaches healthcare, finance, retail, education, real estate, and logistics."
+  },
+  "heading": "Industries we serve",
+  "sections": [
+    {
+      "id": "navbar",
+      "variant": "floating"
+    },
+    {
+      "id": "servicesCards",
+      "variant": "default"
+    },
+    {
+      "id": "footer",
+      "variant": "nova"
+    }
+  ],
+  "enabled": false
+}

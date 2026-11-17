@@ -1,0 +1,63 @@
+{
+  "title": "Example projects",
+  "description": "These cards show the kinds of software work this site can present. Replace each one with a confirmed project before publishing.",
+  "tagline": "Portfolio",
+  "variants": {
+    "bento": {
+      "title": "Example projects",
+      "description": "Replace these with confirmed work.",
+      "tagline": "Portfolio"
+    },
+    "carousel": {
+      "title": "Example projects",
+      "description": "Replace these with confirmed work.",
+      "tagline": "Portfolio",
+      "ariaPrevProject": "Previous project",
+      "ariaNextProject": "Next project"
+    },
+    "categorized": {
+      "title": "Example projects",
+      "description": "Replace these with confirmed work.",
+      "tagline": "Portfolio"
+    },
+    "marquee": {
+      "title": "Example projects",
+      "description": "Replace these with confirmed work.",
+      "tagline": "Portfolio"
+    },
+    "doubleMarquee": {
+      "title": "Example projects",
+      "description": "Replace these with confirmed work.",
+      "tagline": "Portfolio"
+    },
+    "masonry": {
+      "title": "Example projects",
+      "description": "Replace these with confirmed work.",
+      "tagline": "Portfolio"
+    }
+  },
+  "categories": ["All", "Platforms", "Products", "Data"],
+  "items": [
+    {
+      "title": "An operations portal for an internal team",
+      "category": "Platforms",
+      "img": "/assets/images/t001-nova/t001-nova-project-laptop.webp",
+      "span": "md:col-span-2 md:row-span-1",
+      "height": "h-[400px]"
+    },
+    {
+      "title": "A customer application for a company",
+      "category": "Products",
+      "img": "/assets/images/t001-nova/t001-nova-project-building.webp",
+      "span": "md:col-span-1 md:row-span-1",
+      "height": "h-[400px]"
+    },
+    {
+      "title": "A reporting view over existing systems",
+      "category": "Data",
+      "img": "/assets/images/t001-nova/t001-nova-hero.webp",
+      "span": "md:col-span-1 md:row-span-1",
+      "height": "h-[400px]"
+    }
+  ]
+}

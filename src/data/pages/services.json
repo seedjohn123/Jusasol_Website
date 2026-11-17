@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "title": "Services | JUSASOL",
+    "description": "AI development, CRM development and customization, and custom website development from JUSASOL."
+  },
+  "heading": "Services",
+  "sections": [
+    {
+      "id": "navbar",
+      "variant": "floating"
+    },
+    {
+      "id": "features",
+      "variant": "default"
+    },
+    {
+      "id": "processIconSteps",
+      "variant": "default"
+    },
+    {
+      "id": "footer",
+      "variant": "nova"
+    }
+  ],
+  "enabled": false
+}

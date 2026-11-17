@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "Projects | JUSASOL",
+    "description": "Illustrative AI, CRM, and website concepts from JUSASOL. These are not verified client projects."
+  },
+  "heading": "Projects",
+  "sections": [
+    {
+      "id": "navbar",
+      "variant": "floating"
+    },
+    {
+      "id": "servicesZigzag",
+      "variant": "default"
+    },
+    {
+      "id": "footer",
+      "variant": "nova"
+    }
+  ],
+  "enabled": false
+}

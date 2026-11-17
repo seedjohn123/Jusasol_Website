@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "seo": {
+    "title": "Careers | JUSASOL",
+    "description": "JUSASOL welcomes inquiries from people interested in AI, CRM systems, and custom web applications."
+  },
+  "heading": "Careers at JUSASOL",
+  "sections": [
+    { "id": "navbar", "variant": "floating" },
+    { "id": "features", "variant": "default" },
+    { "id": "footer", "variant": "nova" }
+  ]
+}

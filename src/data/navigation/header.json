@@ -1,0 +1,22 @@
+{
+  "menu": [
+    { "label": "About Us", "href": "#about" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Industries", "href": "#industries" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Testimonials", "href": "#testimonials" }
+  ],
+  "cta": {
+    "label": "Contact Us",
+    "href": "#contact",
+    "prefix": "",
+    "hoverLabel": "Let's talk"
+  },
+  "aria": {
+    "menuOpen": "Navigation menu",
+    "menuClose": "Close menu",
+    "menuExpand": "Expand subpages",
+    "navMain": "Main navigation",
+    "drawer": "Navigation menu"
+  }
+}
